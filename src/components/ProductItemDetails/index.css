@@ -1,0 +1,159 @@
+/* Write your CSS here */
+.productItemDetails-container-total-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.productItemDetails-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.productItemDetails-img {
+  width: 40%;
+  min-height: 80vh;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.productItemDetails-title {
+  font-size: 25px;
+  margin: 0px;
+}
+
+.productItemDetails-price {
+  font-weight: bold;
+}
+
+.rating-review-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating-container {
+  height: 25px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productItemDetails-rating {
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.start-img {
+  height: 16px;
+  width: 16px;
+}
+
+.productItemDetails-reviews {
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.productItemDetails-description {
+  color: grey;
+}
+
+.productItemDetails-avialable {
+  font-weight: bold;
+  color: black;
+  margin: 0px;
+}
+
+.productItemDetails-span {
+  font-weight: 400;
+  color: grey;
+}
+
+.add-items-container {
+  display: flex;
+  align-items: center;
+  width: 80px;
+  justify-content: space-between;
+}
+
+.plus-minus-btn {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border-width: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.plus-minus-img {
+  margin: 0px;
+  width: 10px;
+  height: 10px;
+  color: grey;
+}
+
+.products-count {
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.add-to-cart-btn {
+  cursor: pointer;
+  outline: none;
+  background-color: #3b82f6;
+  border-width: 0px;
+  border-radius: 4px;
+  color: white;
+  height: 28px;
+  width: 80px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.similar-products-ul-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.product-item-details-failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.error-view-img {
+  width: 40%;
+}
+
+.failure-btn {
+  cursor: pointer;
+  outline: none;
+  background-color: #3b82f6;
+  color: white;
+  width: 150x;
+  height: 35px;
+  border-width: 0px;
+  border-radius: 6px;
+}
